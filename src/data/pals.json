@@ -1,0 +1,13 @@
+[
+{"id":1,"name":"Lamball","rarity":"Common","image":"lamball.png"},
+{"id":2,"name":"Foxparks","rarity":"Common","image":"foxparks.png"},
+{"id":3,"name":"Pengullet","rarity":"Common","image":"pengullet.png"},
+{"id":4,"name":"Chikipi","rarity":"Uncommon","image":"chikipi.png"},
+{"id":5,"name":"Cattiva","rarity":"Common","image":"cattiva.png"},
+{"id":6,"name":"Roboquill","rarity":"Rare","image":"roboquill.png"},
+{"id":7,"name":"Snailoop","rarity":"Common","image":"snailoop.png"},
+{"id":8,"name":"Turtillo","rarity":"Common","image":"turtillo.png"},
+{"id":9,"name":"Flarion","rarity":"Rare","image":"flarion.png"},
+{"id":10,"name":"Aquafiend","rarity":"Uncommon","image":"aquafiend.png"}
+/* Add remaining Pals here up to ~130 */
+]
