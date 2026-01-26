@@ -13,21 +13,24 @@ export default function BreedingCalculator() {
 
   // Load data from public folder
   useEffect(() => {
-    fetch('/pals.json')
-      .then((res) => res.json())
-      .then(setPals)
-      .catch(console.error);
+  fetch('/pals.json')
+    .then((res) => {
+      if (!res.ok) throw new Error('Failed to fetch pals.json');
+      return res.json();
+    })
+    .then(setPals)
+    .catch((err) => console.error('Error loading pals:', err));
 
-    fetch('/passives.json')
-      .then((res) => res.json())
-      .then(setPassives)
-      .catch(console.error);
+  fetch('/passives.json')
+    .then((res) => res.json())
+    .then(setPassives)
+    .catch(console.error);
 
-    fetch('/breedingTable.json')
-      .then((res) => res.json())
-      .then(setBreedingTable)
-      .catch(console.error);
-  }, []);
+  fetch('/breedingTable.json')
+    .then((res) => res.json())
+    .then(setBreedingTable)
+    .catch(console.error);
+}, []);
 
   const togglePassive = (parentNum, passive) => {
     const current = parentNum === 1 ? parent1Passives : parent2Passives;
