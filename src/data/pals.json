@@ -1,13 +1,692 @@
 [
-{"id":1,"name":"Lamball","rarity":"Common","image":"lamball.png"},
-{"id":2,"name":"Foxparks","rarity":"Common","image":"foxparks.png"},
-{"id":3,"name":"Pengullet","rarity":"Common","image":"pengullet.png"},
-{"id":4,"name":"Chikipi","rarity":"Uncommon","image":"chikipi.png"},
-{"id":5,"name":"Cattiva","rarity":"Common","image":"cattiva.png"},
-{"id":6,"name":"Roboquill","rarity":"Rare","image":"roboquill.png"},
-{"id":7,"name":"Snailoop","rarity":"Common","image":"snailoop.png"},
-{"id":8,"name":"Turtillo","rarity":"Common","image":"turtillo.png"},
-{"id":9,"name":"Flarion","rarity":"Rare","image":"flarion.png"},
-{"id":10,"name":"Aquafiend","rarity":"Uncommon","image":"aquafiend.png"}
-/* Add remaining Pals here up to ~130 */
+  {
+    "id": "001",
+    "name": "Lamball",
+    "imageUrl": "https://palworld.gg/static/pal_icon/lamball.png"
+  },
+  {
+    "id": "002",
+    "name": "Cattiva",
+    "imageUrl": "https://palworld.gg/static/pal_icon/cattiva.png"
+  },
+  {
+    "id": "003",
+    "name": "Chikipi",
+    "imageUrl": "https://palworld.gg/static/pal_icon/chikipi.png"
+  },
+  {
+    "id": "004",
+    "name": "Lifmunk",
+    "imageUrl": "https://palworld.gg/static/pal_icon/lifmunk.png"
+  },
+  {
+    "id": "005",
+    "name": "Foxparks",
+    "imageUrl": "https://palworld.gg/static/pal_icon/foxparks.png"
+  },
+  {
+    "id": "006",
+    "name": "Fuack",
+    "imageUrl": "https://palworld.gg/static/pal_icon/fuack.png"
+  },
+  {
+    "id": "007",
+    "name": "Sparkit",
+    "imageUrl": "https://palworld.gg/static/pal_icon/sparkit.png"
+  },
+  {
+    "id": "008",
+    "name": "Tanzee",
+    "imageUrl": "https://palworld.gg/static/pal_icon/tanzee.png"
+  },
+  {
+    "id": "009",
+    "name": "Rooby",
+    "imageUrl": "https://palworld.gg/static/pal_icon/rooby.png"
+  },
+  {
+    "id": "010",
+    "name": "Pengullet",
+    "imageUrl": "https://palworld.gg/static/pal_icon/pengullet.png"
+  },
+  {
+    "id": "011",
+    "name": "Penking",
+    "imageUrl": "https://palworld.gg/static/pal_icon/penking.png"
+  },
+  {
+    "id": "012",
+    "name": "Jolthog",
+    "imageUrl": "https://palworld.gg/static/pal_icon/jolthog.png"
+  },
+  {
+    "id": "012B",
+    "name": "Jolthog Cryst",
+    "imageUrl": "https://palworld.gg/static/pal_icon/jolthog_cryst.png"
+  },
+  {
+    "id": "013",
+    "name": "Gumoss",
+    "imageUrl": "https://palworld.gg/static/pal_icon/gumoss.png"
+  },
+  {
+    "id": "014",
+    "name": "Vixy",
+    "imageUrl": "https://palworld.gg/static/pal_icon/vixy.png"
+  },
+  {
+    "id": "015",
+    "name": "Hoocrates",
+    "imageUrl": "https://palworld.gg/static/pal_icon/hoocrates.png"
+  },
+  {
+    "id": "016",
+    "name": "Teafant",
+    "imageUrl": "https://palworld.gg/static/pal_icon/teafant.png"
+  },
+  {
+    "id": "017",
+    "name": "Depresso",
+    "imageUrl": "https://palworld.gg/static/pal_icon/depresso.png"
+  },
+  {
+    "id": "018",
+    "name": "Cremis",
+    "imageUrl": "https://palworld.gg/static/pal_icon/cremis.png"
+  },
+  {
+    "id": "019",
+    "name": "Daedream",
+    "imageUrl": "https://palworld.gg/static/pal_icon/daedream.png"
+  },
+  {
+    "id": "020",
+    "name": "Rushoar",
+    "imageUrl": "https://palworld.gg/static/pal_icon/rushoar.png"
+  },
+  {
+    "id": "021",
+    "name": "Nitewing",
+    "imageUrl": "https://palworld.gg/static/pal_icon/nitewing.png"
+  },
+  {
+    "id": "022",
+    "name": "Fuddler",
+    "imageUrl": "https://palworld.gg/static/pal_icon/fuddler.png"
+  },
+  {
+    "id": "023",
+    "name": "Killamari",
+    "imageUrl": "https://palworld.gg/static/pal_icon/killamari.png"
+  },
+  {
+    "id": "024",
+    "name": "Mau",
+    "imageUrl": "https://palworld.gg/static/pal_icon/mau.png"
+  },
+  {
+    "id": "024B",
+    "name": "Mau Cryst",
+    "imageUrl": "https://palworld.gg/static/pal_icon/mau_cryst.png"
+  },
+  {
+    "id": "025",
+    "name": "Celaray",
+    "imageUrl": "https://palworld.gg/static/pal_icon/celaray.png"
+  },
+  {
+    "id": "026",
+    "name": "Direhowl",
+    "imageUrl": "https://palworld.gg/static/pal_icon/direhowl.png"
+  },
+  {
+    "id": "027",
+    "name": "Tocotoco",
+    "imageUrl": "https://palworld.gg/static/pal_icon/tocotoco.png"
+  },
+  {
+    "id": "028",
+    "name": "Flopie",
+    "imageUrl": "https://palworld.gg/static/pal_icon/flopie.png"
+  },
+  {
+    "id": "029",
+    "name": "Mozzarina",
+    "imageUrl": "https://palworld.gg/static/pal_icon/mozzarina.png"
+  },
+  {
+    "id": "030",
+    "name": "Bristla",
+    "imageUrl": "https://palworld.gg/static/pal_icon/bristla.png"
+  },
+  {
+    "id": "031",
+    "name": "Gobfin",
+    "imageUrl": "https://palworld.gg/static/pal_icon/gobfin.png"
+  },
+  {
+    "id": "031B",
+    "name": "Gobfin Ignis",
+    "imageUrl": "https://palworld.gg/static/pal_icon/gobfin_ignis.png"
+  },
+  {
+    "id": "032",
+    "name": "Hangyu",
+    "imageUrl": "https://palworld.gg/static/pal_icon/hangyu.png"
+  },
+  {
+    "id": "032B",
+    "name": "Hangyu Cryst",
+    "imageUrl": "https://palworld.gg/static/pal_icon/hangyu_cryst.png"
+  },
+  {
+    "id": "033",
+    "name": "Mossanda",
+    "imageUrl": "https://palworld.gg/static/pal_icon/mossanda.png"
+  },
+  {
+    "id": "033B",
+    "name": "Mossanda Lux",
+    "imageUrl": "https://palworld.gg/static/pal_icon/mossanda_lux.png"
+  },
+  {
+    "id": "034",
+    "name": "Woolipop",
+    "imageUrl": "https://palworld.gg/static/pal_icon/woolipop.png"
+  },
+  {
+    "id": "035",
+    "name": "Caprity",
+    "imageUrl": "https://palworld.gg/static/pal_icon/caprity.png"
+  },
+  {
+    "id": "036",
+    "name": "Melpaca",
+    "imageUrl": "https://palworld.gg/static/pal_icon/melpaca.png"
+  },
+  {
+    "id": "037",
+    "name": "Eikthyrdeer",
+    "imageUrl": "https://palworld.gg/static/pal_icon/eikthyrdeer.png"
+  },
+  {
+    "id": "037B",
+    "name": "Eikthyrdeer Terra",
+    "imageUrl": "https://palworld.gg/static/pal_icon/eikthyrdeer_terra.png"
+  },
+  {
+    "id": "038",
+    "name": "Nitewing",
+    "imageUrl": "https://palworld.gg/static/pal_icon/nitewing.png"
+  },
+  {
+    "id": "039",
+    "name": "Ribunny",
+    "imageUrl": "https://palworld.gg/static/pal_icon/ribunny.png"
+  },
+  {
+    "id": "040",
+    "name": "Incineram",
+    "imageUrl": "https://palworld.gg/static/pal_icon/incineram.png"
+  },
+  {
+    "id": "040B",
+    "name": "Incineram Noct",
+    "imageUrl": "https://palworld.gg/static/pal_icon/incineram_noct.png"
+  },
+  {
+    "id": "041",
+    "name": "Cinnamoth",
+    "imageUrl": "https://palworld.gg/static/pal_icon/cinnamoth.png"
+  },
+  {
+    "id": "042",
+    "name": "Arsox",
+    "imageUrl": "https://palworld.gg/static/pal_icon/arsox.png"
+  },
+  {
+    "id": "043",
+    "name": "Dumud",
+    "imageUrl": "https://palworld.gg/static/pal_icon/dumud.png"
+  },
+  {
+    "id": "044",
+    "name": "Cawgnito",
+    "imageUrl": "https://palworld.gg/static/pal_icon/cawgnito.png"
+  },
+  {
+    "id": "045",
+    "name": "Leezpunk",
+    "imageUrl": "https://palworld.gg/static/pal_icon/leezpunk.png"
+  },
+  {
+    "id": "045B",
+    "name": "Leezpunk Ignis",
+    "imageUrl": "https://palworld.gg/static/pal_icon/leezpunk_ignis.png"
+  },
+  {
+    "id": "046",
+    "name": "Loupmoon",
+    "imageUrl": "https://palworld.gg/static/pal_icon/loupmoon.png"
+  },
+  {
+    "id": "047",
+    "name": "Galeclaw",
+    "imageUrl": "https://palworld.gg/static/pal_icon/galeclaw.png"
+  },
+  {
+    "id": "048",
+    "name": "Robinquill",
+    "imageUrl": "https://palworld.gg/static/pal_icon/robinquill.png"
+  },
+  {
+    "id": "048B",
+    "name": "Robinquill Terra",
+    "imageUrl": "https://palworld.gg/static/pal_icon/robinquill_terra.png"
+  },
+  {
+    "id": "049",
+    "name": "Gorirat",
+    "imageUrl": "https://palworld.gg/static/pal_icon/gorirat.png"
+  },
+  {
+    "id": "049B",
+    "name": "Gorirat Terra",
+    "imageUrl": "https://palworld.gg/static/pal_icon/gorirat_terra.png"
+  },
+  {
+    "id": "050",
+    "name": "Beegarde",
+    "imageUrl": "https://palworld.gg/static/pal_icon/beegarde.png"
+  },
+  {
+    "id": "051",
+    "name": "Elizabee",
+    "imageUrl": "https://palworld.gg/static/pal_icon/elizabee.png"
+  },
+  {
+    "id": "052",
+    "name": "Grintale",
+    "imageUrl": "https://palworld.gg/static/pal_icon/grintale.png"
+  },
+  {
+    "id": "053",
+    "name": "Swee",
+    "imageUrl": "https://palworld.gg/static/pal_icon/swee.png"
+  },
+  {
+    "id": "054",
+    "name": "Sweepa",
+    "imageUrl": "https://palworld.gg/static/pal_icon/sweepa.png"
+  },
+  {
+    "id": "055",
+    "name": "Chillet",
+    "imageUrl": "https://palworld.gg/static/pal_icon/chillet.png"
+  },
+  {
+    "id": "056",
+    "name": "Univolt",
+    "imageUrl": "https://palworld.gg/static/pal_icon/univolt.png"
+  },
+  {
+    "id": "057",
+    "name": "Foxcicle",
+    "imageUrl": "https://palworld.gg/static/pal_icon/foxcicle.png"
+  },
+  {
+    "id": "058",
+    "name": "Pyrin",
+    "imageUrl": "https://palworld.gg/static/pal_icon/pyrin.png"
+  },
+  {
+    "id": "058B",
+    "name": "Pyrin Noct",
+    "imageUrl": "https://palworld.gg/static/pal_icon/pyrin_noct.png"
+  },
+  {
+    "id": "059",
+    "name": "Reindrix",
+    "imageUrl": "https://palworld.gg/static/pal_icon/reindrix.png"
+  },
+  {
+    "id": "060",
+    "name": "Rayhound",
+    "imageUrl": "https://palworld.gg/static/pal_icon/rayhound.png"
+  },
+  {
+    "id": "061",
+    "name": "Kitsun",
+    "imageUrl": "https://palworld.gg/static/pal_icon/kitsun.png"
+  },
+  {
+    "id": "062",
+    "name": "Dazzi",
+    "imageUrl": "https://palworld.gg/static/pal_icon/dazzi.png"
+  },
+  {
+    "id": "063",
+    "name": "Lunaris",
+    "imageUrl": "https://palworld.gg/static/pal_icon/lunaris.png"
+  },
+  {
+    "id": "064",
+    "name": "Dinossom",
+    "imageUrl": "https://palworld.gg/static/pal_icon/dinossom.png"
+  },
+  {
+    "id": "064B",
+    "name": "Dinossom Lux",
+    "imageUrl": "https://palworld.gg/static/pal_icon/dinossom_lux.png"
+  },
+  {
+    "id": "065",
+    "name": "Surfent",
+    "imageUrl": "https://palworld.gg/static/pal_icon/surfent.png"
+  },
+  {
+    "id": "065B",
+    "name": "Surfent Terra",
+    "imageUrl": "https://palworld.gg/static/pal_icon/surfent_terra.png"
+  },
+  {
+    "id": "066",
+    "name": "Maraith",
+    "imageUrl": "https://palworld.gg/static/pal_icon/maraith.png"
+  },
+  {
+    "id": "067",
+    "name": "Digtoise",
+    "imageUrl": "https://palworld.gg/static/pal_icon/digtoise.png"
+  },
+  {
+    "id": "068",
+    "name": "Tombat",
+    "imageUrl": "https://palworld.gg/static/pal_icon/tombat.png"
+  },
+  {
+    "id": "069",
+    "name": "Lovander",
+    "imageUrl": "https://palworld.gg/static/pal_icon/lovander.png"
+  },
+  {
+    "id": "070",
+    "name": "Flambelle",
+    "imageUrl": "https://palworld.gg/static/pal_icon/flambelle.png"
+  },
+  {
+    "id": "071",
+    "name": "Vanwyrm",
+    "imageUrl": "https://palworld.gg/static/pal_icon/vanwyrm.png"
+  },
+  {
+    "id": "071B",
+    "name": "Vanwyrm Cryst",
+    "imageUrl": "https://palworld.gg/static/pal_icon/vanwyrm_cryst.png"
+  },
+  {
+    "id": "072",
+    "name": "Bushi",
+    "imageUrl": "https://palworld.gg/static/pal_icon/bushi.png"
+  },
+  {
+    "id": "073",
+    "name": "Beakon",
+    "imageUrl": "https://palworld.gg/static/pal_icon/beakon.png"
+  },
+  {
+    "id": "074",
+    "name": "Ragnahawk",
+    "imageUrl": "https://palworld.gg/static/pal_icon/ragnahawk.png"
+  },
+  {
+    "id": "075",
+    "name": "Katress",
+    "imageUrl": "https://palworld.gg/static/pal_icon/katress.png"
+  },
+  {
+    "id": "076",
+    "name": "Wixen",
+    "imageUrl": "https://palworld.gg/static/pal_icon/wixen.png"
+  },
+  {
+    "id": "077",
+    "name": "Verdash",
+    "imageUrl": "https://palworld.gg/static/pal_icon/verdash.png"
+  },
+  {
+    "id": "078",
+    "name": "Vaelet",
+    "imageUrl": "https://palworld.gg/static/pal_icon/vaelet.png"
+  },
+  {
+    "id": "079",
+    "name": "Sibelyx",
+    "imageUrl": "https://palworld.gg/static/pal_icon/sibelyx.png"
+  },
+  {
+    "id": "080",
+    "name": "Elphidran",
+    "imageUrl": "https://palworld.gg/static/pal_icon/elphidran.png"
+  },
+  {
+    "id": "080B",
+    "name": "Elphidran Aqua",
+    "imageUrl": "https://palworld.gg/static/pal_icon/elphidran_aqua.png"
+  },
+  {
+    "id": "081",
+    "name": "Kelpsea",
+    "imageUrl": "https://palworld.gg/static/pal_icon/kelpsea.png"
+  },
+  {
+    "id": "081B",
+    "name": "Kelpsea Ignis",
+    "imageUrl": "https://palworld.gg/static/pal_icon/kelpsea_ignis.png"
+  },
+  {
+    "id": "082",
+    "name": "Azurobe",
+    "imageUrl": "https://palworld.gg/static/pal_icon/azurobe.png"
+  },
+  {
+    "id": "083",
+    "name": "Cryolinx",
+    "imageUrl": "https://palworld.gg/static/pal_icon/cryolinx.png"
+  },
+  {
+    "id": "084",
+    "name": "Blazehowl",
+    "imageUrl": "https://palworld.gg/static/pal_icon/blazehowl.png"
+  },
+  {
+    "id": "084B",
+    "name": "Blazehowl Noct",
+    "imageUrl": "https://palworld.gg/static/pal_icon/blazehowl_noct.png"
+  },
+  {
+    "id": "085",
+    "name": "Relaxaurus",
+    "imageUrl": "https://palworld.gg/static/pal_icon/relaxaurus.png"
+  },
+  {
+    "id": "085B",
+    "name": "Relaxaurus Lux",
+    "imageUrl": "https://palworld.gg/static/pal_icon/relaxaurus_lux.png"
+  },
+  {
+    "id": "086",
+    "name": "Broncherry",
+    "imageUrl": "https://palworld.gg/static/pal_icon/broncherry.png"
+  },
+  {
+    "id": "086B",
+    "name": "Broncherry Aqua",
+    "imageUrl": "https://palworld.gg/static/pal_icon/broncherry_aqua.png"
+  },
+  {
+    "id": "087",
+    "name": "Petallia",
+    "imageUrl": "https://palworld.gg/static/pal_icon/petallia.png"
+  },
+  {
+    "id": "088",
+    "name": "Reptyro",
+    "imageUrl": "https://palworld.gg/static/pal_icon/reptyro.png"
+  },
+  {
+    "id": "088B",
+    "name": "Reptyro Cryst",
+    "imageUrl": "https://palworld.gg/static/pal_icon/reptyro_cryst.png"
+  },
+  {
+    "id": "089",
+    "name": "Kingpaca",
+    "imageUrl": "https://palworld.gg/static/pal_icon/kingpaca.png"
+  },
+  {
+    "id": "089B",
+    "name": "Kingpaca Cryst",
+    "imageUrl": "https://palworld.gg/static/pal_icon/kingpaca_cryst.png"
+  },
+  {
+    "id": "090",
+    "name": "Mammorest",
+    "imageUrl": "https://palworld.gg/static/pal_icon/mammorest.png"
+  },
+  {
+    "id": "090B",
+    "name": "Mammorest Cryst",
+    "imageUrl": "https://palworld.gg/static/pal_icon/mammorest_cryst.png"
+  },
+  {
+    "id": "091",
+    "name": "Wumpo",
+    "imageUrl": "https://palworld.gg/static/pal_icon/wumpo.png"
+  },
+  {
+    "id": "091B",
+    "name": "Wumpo Botan",
+    "imageUrl": "https://palworld.gg/static/pal_icon/wumpo_botan.png"
+  },
+  {
+    "id": "092",
+    "name": "Warsect",
+    "imageUrl": "https://palworld.gg/static/pal_icon/warsect.png"
+  },
+  {
+    "id": "093",
+    "name": "Fenglope",
+    "imageUrl": "https://palworld.gg/static/pal_icon/fenglope.png"
+  },
+  {
+    "id": "094",
+    "name": "Felbat",
+    "imageUrl": "https://palworld.gg/static/pal_icon/felbat.png"
+  },
+  {
+    "id": "095",
+    "name": "Quivern",
+    "imageUrl": "https://palworld.gg/static/pal_icon/quivern.png"
+  },
+  {
+    "id": "096",
+    "name": "Blazamut",
+    "imageUrl": "https://palworld.gg/static/pal_icon/blazamut.png"
+  },
+  {
+    "id": "097",
+    "name": "Helzephyr",
+    "imageUrl": "https://palworld.gg/static/pal_icon/helzephyr.png"
+  },
+  {
+    "id": "098",
+    "name": "Astegon",
+    "imageUrl": "https://palworld.gg/static/pal_icon/astegon.png"
+  },
+  {
+    "id": "099",
+    "name": "Menasting",
+    "imageUrl": "https://palworld.gg/static/pal_icon/menasting.png"
+  },
+  {
+    "id": "100",
+    "name": "Anubis",
+    "imageUrl": "https://palworld.gg/static/pal_icon/anubis.png"
+  },
+  {
+    "id": "101",
+    "name": "Jormuntide",
+    "imageUrl": "https://palworld.gg/static/pal_icon/jormuntide.png"
+  },
+  {
+    "id": "101B",
+    "name": "Jormuntide Ignis",
+    "imageUrl": "https://palworld.gg/static/pal_icon/jormuntide_ignis.png"
+  },
+  {
+    "id": "102",
+    "name": "Suzaku",
+    "imageUrl": "https://palworld.gg/static/pal_icon/suzaku.png"
+  },
+  {
+    "id": "102B",
+    "name": "Suzaku Aqua",
+    "imageUrl": "https://palworld.gg/static/pal_icon/suzaku_aqua.png"
+  },
+  {
+    "id": "103",
+    "name": "Grizzbolt",
+    "imageUrl": "https://palworld.gg/static/pal_icon/grizzbolt.png"
+  },
+  {
+    "id": "104",
+    "name": "Lyleen",
+    "imageUrl": "https://palworld.gg/static/pal_icon/lyleen.png"
+  },
+  {
+    "id": "104B",
+    "name": "Lyleen Noct",
+    "imageUrl": "https://palworld.gg/static/pal_icon/lyleen_noct.png"
+  },
+  {
+    "id": "105",
+    "name": "Faleris",
+    "imageUrl": "https://palworld.gg/static/pal_icon/faleris.png"
+  },
+  {
+    "id": "106",
+    "name": "Orserk",
+    "imageUrl": "https://palworld.gg/static/pal_icon/orserk.png"
+  },
+  {
+    "id": "107",
+    "name": "Shadowbeak",
+    "imageUrl": "https://palworld.gg/static/pal_icon/shadowbeak.png"
+  },
+  {
+    "id": "108",
+    "name": "Paladius",
+    "imageUrl": "https://palworld.gg/static/pal_icon/paladius.png"
+  },
+  {
+    "id": "109",
+    "name": "Necromus",
+    "imageUrl": "https://palworld.gg/static/pal_icon/necromus.png"
+  },
+  {
+    "id": "110",
+    "name": "Frostallion",
+    "imageUrl": "https://palworld.gg/static/pal_icon/frostallion.png"
+  },
+  {
+    "id": "110B",
+    "name": "Frostallion Noct",
+    "imageUrl": "https://palworld.gg/static/pal_icon/frostallion_noct.png"
+  },
+  {
+    "id": "111",
+    "name": "Jetragon",
+    "imageUrl": "https://palworld.gg/static/pal_icon/jetragon.png"
+  }
 ]
