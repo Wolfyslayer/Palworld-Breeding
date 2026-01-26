@@ -1,12 +1,33 @@
-import { useState } from 'react';
-import { pals, passives, breedingTable } from './data';
+import { useState, useEffect } from 'react';
 import { calculateChances } from './math';
 
 export default function BreedingCalculator() {
+  const [pals, setPals] = useState([]);
+  const [passives, setPassives] = useState([]);
+  const [breedingTable, setBreedingTable] = useState([]);
+
   const [parent1, setParent1] = useState(null);
   const [parent2, setParent2] = useState(null);
   const [parent1Passives, setParent1Passives] = useState([]);
   const [parent2Passives, setParent2Passives] = useState([]);
+
+  // Load data from public folder
+  useEffect(() => {
+    fetch('/pals.json')
+      .then((res) => res.json())
+      .then(setPals)
+      .catch(console.error);
+
+    fetch('/passives.json')
+      .then((res) => res.json())
+      .then(setPassives)
+      .catch(console.error);
+
+    fetch('/breedingTable.json')
+      .then((res) => res.json())
+      .then(setBreedingTable)
+      .catch(console.error);
+  }, []);
 
   const togglePassive = (parentNum, passive) => {
     const current = parentNum === 1 ? parent1Passives : parent2Passives;
@@ -15,15 +36,13 @@ export default function BreedingCalculator() {
     if (current.includes(passive)) {
       setter(current.filter((p) => p !== passive));
     } else {
-      if (current.length < 4) {
-        setter([...current, passive]);
-      }
+      if (current.length < 4) setter([...current, passive]);
     }
   };
 
   const getOffspringChances = () => {
     if (!parent1 || !parent2) return [];
-    return calculateChances(parent1, parent2, parent1Passives, parent2Passives);
+    return calculateChances(parent1, parent2, parent1Passives, parent2Passives, breedingTable);
   };
 
   const offspring = getOffspringChances();
@@ -32,7 +51,6 @@ export default function BreedingCalculator() {
     <div className="p-4 max-w-5xl mx-auto">
       <h1 className="text-2xl font-bold mb-6 text-center">Palworld Breeding Calculator</h1>
 
-      {/* Parent Selection */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         {[1, 2].map((num) => (
           <div key={num} className="border p-4 rounded shadow">
@@ -47,7 +65,7 @@ export default function BreedingCalculator() {
                   onClick={() => (num === 1 ? setParent1(pal) : setParent2(pal))}
                 >
                   <img
-                    src={pal.imageUrl} // ✅ Use imageUrl from pals.json
+                    src={pal.imageUrl}
                     alt={pal.name}
                     className="w-12 h-12 object-contain"
                   />
@@ -56,15 +74,11 @@ export default function BreedingCalculator() {
               ))}
             </div>
 
-            {/* Passives */}
             <div>
               <h3 className="text-sm font-medium mb-1">Select up to 4 passives</h3>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-1">
                 {passives.map((p) => (
-                  <label
-                    key={p.name}
-                    className="text-xs flex items-center gap-1 cursor-pointer"
-                  >
+                  <label key={p.name} className="text-xs flex items-center gap-1 cursor-pointer">
                     <input
                       type="checkbox"
                       checked={(num === 1 ? parent1Passives : parent2Passives).includes(p.name)}
@@ -79,7 +93,6 @@ export default function BreedingCalculator() {
         ))}
       </div>
 
-      {/* Offspring Section */}
       <div className="border p-4 rounded shadow">
         <h2 className="font-semibold mb-4">Offspring Chances</h2>
         {offspring.length === 0 ? (
@@ -89,7 +102,7 @@ export default function BreedingCalculator() {
             {offspring.map((off) => (
               <div key={off.id} className="flex flex-col items-center">
                 <img
-                  src={off.imageUrl} // Use imageUrl here as well
+                  src={off.imageUrl}
                   alt={off.name}
                   className="w-16 h-16 object-contain mb-1"
                 />
