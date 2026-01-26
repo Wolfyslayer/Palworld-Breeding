@@ -51,26 +51,51 @@ export default function BreedingCalculator() {
       <h1 className="text-3xl font-bold mb-4 text-center">Palworld Breeding Calculator</h1>
 
       {/* Parent Selection */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-        {[1, 2].map((num) => (
-          <div key={num} className="border p-4 rounded shadow">
-            <h2 className="font-semibold mb-2">Parent {num}</h2>
-            <div className="grid grid-cols-3 md:grid-cols-4 gap-2 mb-2">
-              {pals.map((pal) => (
-                <button
-                  key={pal.name}
-                  className={`border rounded p-1 flex flex-col items-center cursor-pointer hover:bg-gray-100 ${
-                    (num === 1 ? parent1 : parent2)?.name === pal.name
-                      ? "border-blue-500"
-                      : ""
-                  }`}
-                  onClick={() => (num === 1 ? setParent1(pal) : setParent2(pal))}
-                >
-                  <img src={pal.image} alt={pal.name} className="w-12 h-12 object-contain" />
-                  <span className="text-xs mt-1 text-center">{pal.name}</span>
-                </button>
-              ))}
-            </div>
+<div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+  {[1, 2].map((num) => (
+    <div key={num} className="border p-4 rounded shadow">
+      <h2 className="font-semibold mb-2">Parent {num}</h2>
+      <div className="grid grid-cols-3 md:grid-cols-4 gap-2 mb-2">
+        {pals.map((pal) => (
+          <button
+            key={pal.id}
+            className={`border rounded p-1 flex flex-col items-center cursor-pointer hover:bg-gray-100 ${
+              (num === 1 ? parent1 : parent2)?.id === pal.id ? "border-blue-500" : ""
+            }`}
+            onClick={() => (num === 1 ? setParent1(pal) : setParent2(pal))}
+          >
+            <img
+              src={pal.imageUrl}  // ✅ Use imageUrl here
+              alt={pal.name}
+              className="w-12 h-12 object-contain"
+            />
+            <span className="text-xs mt-1 text-center">{pal.name}</span>
+          </button>
+        ))}
+      </div>
+
+      {/* Passives */}
+      <div>
+        <h3 className="text-sm font-medium mb-1">Select up to 4 passives</h3>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-1">
+          {passives.map((p) => (
+            <label
+              key={p.name}
+              className="text-xs flex items-center gap-1 cursor-pointer"
+            >
+              <input
+                type="checkbox"
+                checked={(num === 1 ? parent1Passives : parent2Passives).includes(p.name)}
+                onChange={() => togglePassive(num, p.name)}
+              />
+              {p.name}
+            </label>
+          ))}
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
 
             {/* Passives */}
             <div>
