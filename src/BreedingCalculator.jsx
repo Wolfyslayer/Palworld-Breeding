@@ -29,6 +29,12 @@ export default function BreedingCalculator() {
       .catch(console.error);
   }, []);
 
+  // Helper to get imageUrl for any pal ID
+  const getPalImage = (id) => {
+    const pal = pals.find((p) => p.id === id);
+    return pal ? pal.imageUrl : '';
+  };
+
   const togglePassive = (parentNum, passive) => {
     const current = parentNum === 1 ? parent1Passives : parent2Passives;
     const setter = parentNum === 1 ? setParent1Passives : setParent2Passives;
@@ -102,7 +108,7 @@ export default function BreedingCalculator() {
             {offspring.map((off) => (
               <div key={off.id} className="flex flex-col items-center">
                 <img
-                  src={off.imageUrl}
+                  src={getPalImage(off.id)}
                   alt={off.name}
                   className="w-16 h-16 object-contain mb-1"
                 />
