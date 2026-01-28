@@ -1,0 +1,1279 @@
+export const palsData = [
+  {
+    "name": "Blazamut",
+    "image": "/pals/blazamut-image.png",
+    "breedingPower": 10,
+    "types": [
+      "Fire"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Suzaku Aqua",
+    "image": "/pals/suzaku-aqua-image.png",
+    "breedingPower": 30,
+    "types": [
+      "Water"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Suzaku",
+    "image": "/pals/suzaku-image.png",
+    "breedingPower": 50,
+    "types": [
+      "Fire"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Shadowbeak",
+    "image": "/pals/shadowbeak-image.png",
+    "breedingPower": 60,
+    "types": [
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Necromus",
+    "image": "/pals/necromus-image.png",
+    "breedingPower": 70,
+    "types": [
+      "Dark"
+    ],
+    "isRare": false
+  },
+  {
+    "name": "Paladius",
+    "image": "/pals/paladius-image.png",
+    "breedingPower": 80,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": false
+  },
+  {
+    "name": "Jetragon",
+    "image": "/pals/jetragon-image.png",
+    "breedingPower": 90,
+    "types": [
+      "Dragon"
+    ],
+    "isRare": false
+  },
+  {
+    "name": "Frostallion Noct",
+    "image": "/pals/frostallion-image.png",
+    "breedingPower": 100,
+    "types": [
+      "Dark"
+    ],
+    "isRare": false
+  },
+  {
+    "name": "Frostallion",
+    "image": "/pals/frostallion-image.png",
+    "breedingPower": 120,
+    "types": [
+      "Ice"
+    ],
+    "isRare": false
+  },
+  {
+    "name": "Cryolinx",
+    "image": "/pals/cryolinx-image.png",
+    "breedingPower": 130,
+    "types": [
+      "Ice"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Orserk",
+    "image": "/pals/orserk-image.png",
+    "breedingPower": 140,
+    "types": [
+      "Dragon",
+      "Electric"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Astegon",
+    "image": "/pals/astegon-image.png",
+    "breedingPower": 150,
+    "types": [
+      "Dragon",
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Helzephyr",
+    "image": "/pals/helzephyr-image.png",
+    "breedingPower": 190,
+    "types": [
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Grizzbolt",
+    "image": "/pals/grizzbolt-image.png",
+    "breedingPower": 200,
+    "types": [
+      "Electric"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Lyleen Noct",
+    "image": "/pals/lyleen-image.png",
+    "breedingPower": 210,
+    "types": [
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Beakon",
+    "image": "/pals/beakon-image.png",
+    "breedingPower": 220,
+    "types": [
+      "Electric"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Ice Reptyro",
+    "image": "/pals/ice-reptyro-image.png",
+    "breedingPower": 230,
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Pyrin Noct",
+    "image": "/pals/pyrin-noct-image.png",
+    "breedingPower": 240,
+    "types": [
+      "Fire",
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Lyleen",
+    "image": "/pals/lyleen-image.png",
+    "breedingPower": 250,
+    "types": [
+      "Grass"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Menasting",
+    "image": "/pals/menasting-image.png",
+    "breedingPower": 260,
+    "types": [
+      "Dark",
+      "Ground"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Relaxaurus Lux",
+    "image": "/pals/relaxaurus-image.png",
+    "breedingPower": 270,
+    "types": [
+      "Dragon",
+      "Electric"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Relaxaurus",
+    "image": "/pals/relaxaurus-image.png",
+    "breedingPower": 280,
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Mammorest Cryst",
+    "image": "/pals/mammorest-cryst-image.png",
+    "breedingPower": 290,
+    "types": [
+      "Ice"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Mammorest",
+    "image": "/pals/mammorest-image.png",
+    "breedingPower": 300,
+    "types": [
+      "Grass"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Jormuntide",
+    "image": "/pals/jormuntide-image.png",
+    "breedingPower": 310,
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Jormuntide Ignis",
+    "image": "/pals/jormuntide-ignis-image.png",
+    "breedingPower": 315,
+    "types": [
+      "Dragon",
+      "Fire"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Reptyro",
+    "image": "/pals/reptyro-image.png",
+    "breedingPower": 320,
+    "types": [
+      "Fire",
+      "Ground"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Elizabee",
+    "image": "/pals/elizabee-image.png",
+    "breedingPower": 330,
+    "types": [
+      "Grass"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Warsect",
+    "image": "/pals/warsect-image.png",
+    "breedingPower": 340,
+    "types": [
+      "Ground",
+      "Grass"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Quivern",
+    "image": "/pals/quivern-image.png",
+    "breedingPower": 350,
+    "types": [
+      "Dragon"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Pyrin",
+    "image": "/pals/pyrin-image.png",
+    "breedingPower": 360,
+    "types": [
+      "Fire"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Faleris",
+    "image": "/pals/faleris-image.png",
+    "breedingPower": 370,
+    "types": [
+      "Fire"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Ragnahawk",
+    "image": "/pals/ragnahawk-image.png",
+    "breedingPower": 380,
+    "types": [
+      "Fire"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Mossanda Lux",
+    "image": "/pals/mossanda-lux-image.png",
+    "breedingPower": 390,
+    "types": [
+      "Electric"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Sweepa",
+    "image": "/pals/sweepa-image.png",
+    "breedingPower": 410,
+    "types": [
+      "Ice"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Nitewing",
+    "image": "/pals/nitewing-image.png",
+    "breedingPower": 420,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Mossanda",
+    "image": "/pals/mossanda-image.png",
+    "breedingPower": 430,
+    "types": [
+      "Grass"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Ice Kingpaca",
+    "image": "/pals/ice-kingpaca-image.png",
+    "breedingPower": 440,
+    "types": [
+      "Ice"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Sibelyx",
+    "image": "/pals/sibelyx-image.png",
+    "breedingPower": 450,
+    "types": [
+      "Ice"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Wumpo",
+    "image": "/pals/wumpo-image.png",
+    "breedingPower": 460,
+    "types": [
+      "Ice"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Kingpaca",
+    "image": "/pals/kingpaca-image.png",
+    "breedingPower": 470,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Wumpo Botan",
+    "image": "/pals/wumpo-botan-image.png",
+    "breedingPower": 480,
+    "types": [
+      "Grass"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Cinnamoth",
+    "image": "/pals/cinnamoth-image.png",
+    "breedingPower": 490,
+    "types": [
+      "Grass"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Azurobe",
+    "image": "/pals/azurobe-image.png",
+    "breedingPower": 500,
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Grintale",
+    "image": "/pals/grintale-image.png",
+    "breedingPower": 510,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Penking",
+    "image": "/pals/penking-image.png",
+    "breedingPower": 520,
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Elphidran Aqua",
+    "image": "/pals/elphidran-image.png",
+    "breedingPower": 530,
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Elphidran",
+    "image": "/pals/elphidran-image.png",
+    "breedingPower": 540,
+    "types": [
+      "Dragon"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Surfent Terra",
+    "image": "/pals/surfent-image.png",
+    "breedingPower": 550,
+    "types": [
+      "Ground"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Surfent",
+    "image": "/pals/surfent-image.png",
+    "breedingPower": 560,
+    "types": [
+      "Water"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Anubis",
+    "image": "/pals/anubis-image.png",
+    "breedingPower": 570,
+    "types": [
+      "Ground"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Incineram Noct",
+    "image": "/pals/incineram-noct-image.png",
+    "breedingPower": 580,
+    "types": [
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Incineram",
+    "image": "/pals/incineram-image.png",
+    "breedingPower": 590,
+    "types": [
+      "Fire",
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Vanwyrm Cryst",
+    "image": "/pals/vanwyrm-cryst-image.png",
+    "breedingPower": 620,
+    "types": [
+      "Ice",
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Bushi",
+    "image": "/pals/bushi-image.png",
+    "breedingPower": 640,
+    "types": [
+      "Fire"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Vanwyrm",
+    "image": "/pals/vanwyrm-image.png",
+    "breedingPower": 660,
+    "types": [
+      "Fire",
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Blazehowl Noct",
+    "image": "/pals/blazehowl-noct-image.png",
+    "breedingPower": 670,
+    "types": [
+      "Fire",
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Univolt",
+    "image": "/pals/univolt-image.png",
+    "breedingPower": 680,
+    "types": [
+      "Electric"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Katress",
+    "image": "/pals/katress-image.png",
+    "breedingPower": 700,
+    "types": [
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Blazehowl",
+    "image": "/pals/blazehowl-image.png",
+    "breedingPower": 710,
+    "types": [
+      "Fire"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Rayhound",
+    "image": "/pals/rayhound-image.png",
+    "breedingPower": 740,
+    "types": [
+      "Electric"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Tombat",
+    "image": "/pals/tombat-image.png",
+    "breedingPower": 750,
+    "types": [
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Foxcicle",
+    "image": "/pals/foxcicle-image.png",
+    "breedingPower": 760,
+    "types": [
+      "Ice"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Petallia",
+    "image": "/pals/petallia-image.png",
+    "breedingPower": 780,
+    "types": [
+      "Grass"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Arsox",
+    "image": "/pals/arsox-image.png",
+    "breedingPower": 790,
+    "types": [
+      "Fire"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Chillet",
+    "image": "/pals/chillet-image.png",
+    "breedingPower": 800,
+    "types": [
+      "Ice",
+      "Dragon"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Dinossom Lux",
+    "image": "/pals/dinossom-lux-image.png",
+    "breedingPower": 810,
+    "types": [
+      "Electric",
+      "Dragon"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Dinossom",
+    "image": "/pals/dinossom-image.png",
+    "breedingPower": 820,
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Kitsun",
+    "image": "/pals/kitsun-image.png",
+    "breedingPower": 830,
+    "types": [
+      "Fire"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Broncherry Aqua",
+    "image": "/pals/broncherry-aqua-image.png",
+    "breedingPower": 840,
+    "types": [
+      "Grass",
+      "Water"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Digtoise",
+    "image": "/pals/digtoise-image.png",
+    "breedingPower": 850,
+    "types": [
+      "Ground"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Broncherry",
+    "image": "/pals/broncherry-image.png",
+    "breedingPower": 860,
+    "types": [
+      "Grass"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Celaray",
+    "image": "/pals/celaray-image.png",
+    "breedingPower": 870,
+    "types": [
+      "Water"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Reindrix",
+    "image": "/pals/reindrix-image.png",
+    "breedingPower": 880,
+    "types": [
+      "Ice"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Melpaca",
+    "image": "/pals/melpaca.png",
+    "breedingPower": 890,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Dumud",
+    "image": "/pals/dumud-image.png",
+    "breedingPower": 895,
+    "types": [
+      "Ground"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Eikthyrdeer Terra",
+    "image": "/pals/eikthyrdeer-terra-image.png",
+    "breedingPower": 900,
+    "types": [
+      "Ground"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Mozzarina",
+    "image": "/pals/mozzarina-image.png",
+    "breedingPower": 910,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Eikthyrdeer",
+    "image": "/pals/eikthyrdeer-image.png",
+    "breedingPower": 920,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Caprity",
+    "image": "/pals/caprity-image.png",
+    "breedingPower": 930,
+    "types": [
+      "Grass"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Lovander",
+    "image": "/pals/lovander-image.png",
+    "breedingPower": 940,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Loupmoon",
+    "image": "/pals/loupmoon-image.png",
+    "breedingPower": 950,
+    "types": [
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Fenglope",
+    "image": "/pals/fenglope-image.png",
+    "breedingPower": 980,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Verdash",
+    "image": "/pals/verdash-image.png",
+    "breedingPower": 990,
+    "types": [
+      "Grass"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Robinquill Terra",
+    "image": "/pals/robinquill-terra-image.png",
+    "breedingPower": 1000,
+    "types": [
+      "Grass",
+      "Ground"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Felbat",
+    "image": "/pals/felbat-image.png",
+    "breedingPower": 1010,
+    "types": [
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Robinquill",
+    "image": "/pals/robinquill-image.png",
+    "breedingPower": 1020,
+    "types": [
+      "Grass"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Galeclaw",
+    "image": "/pals/galeclaw-image.png",
+    "breedingPower": 1030,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Gorirat",
+    "image": "/pals/gorirat-image.png",
+    "breedingPower": 1040,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Vaelet",
+    "image": "/pals/vaelet-image.png",
+    "breedingPower": 1050,
+    "types": [
+      "Grass"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Direhowl",
+    "image": "/pals/direhowl-image.png",
+    "breedingPower": 1060,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Beegarde",
+    "image": "/pals/beegarde-image.png",
+    "breedingPower": 1070,
+    "types": [
+      "Grass"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Cawgnito",
+    "image": "/pals/cawgnito-image.png",
+    "breedingPower": 1080,
+    "types": [
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Gobfin",
+    "image": "/pals/gobfin-image.png",
+    "breedingPower": 1090,
+    "types": [
+      "Water"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Gobfin Ignis",
+    "image": "/pals/gobfin-ignis-image.png",
+    "breedingPower": 1100,
+    "types": [
+      "Fire"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Lunaris",
+    "image": "/pals/lunaris-image.png",
+    "breedingPower": 1110,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Leezpunk",
+    "image": "/pals/leezpunk-image.png",
+    "breedingPower": 1120,
+    "types": [
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Rushoar",
+    "image": "/pals/rushoar-image.png",
+    "breedingPower": 1130,
+    "types": [
+      "Ground"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Leezpunk Ignis",
+    "image": "/pals/leezpunk-ignis-image.png",
+    "breedingPower": 1140,
+    "types": [
+      "Fire"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Maraith",
+    "image": "/pals/maraith-image.png",
+    "breedingPower": 1150,
+    "types": [
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Rooby",
+    "image": "/pals/rooby-image.png",
+    "breedingPower": 1155,
+    "types": [
+      "Fire"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Wixen",
+    "image": "/pals/wixen-image.png",
+    "breedingPower": 1160,
+    "types": [
+      "Fire"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Nox",
+    "image": "/pals/nox-image.png",
+    "breedingPower": 1180,
+    "types": [
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Woolipop",
+    "image": "/pals/woolipop-image.png",
+    "breedingPower": 1190,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Dazzi",
+    "image": "/pals/dazzi-image.png",
+    "breedingPower": 1210,
+    "types": [
+      "Electric"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Fuddler",
+    "image": "/pals/fuddler-image.png",
+    "breedingPower": 1220,
+    "types": [
+      "Ground"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Daedream",
+    "image": "/pals/daedream-image.png",
+    "breedingPower": 1230,
+    "types": [
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Gumoss",
+    "image": "/pals/gumoss-image.png",
+    "breedingPower": 1240,
+    "types": [
+      "Grass",
+      "Ground"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Tanzee",
+    "image": "/pals/tanzee-image.png",
+    "breedingPower": 1250,
+    "types": [
+      "Grass"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Kelpsea",
+    "image": "/pals/kelpsea-image.png",
+    "breedingPower": 1260,
+    "types": [
+      "Water"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Kelpsea Ignis",
+    "image": "/pals/kelpsea-ignis-image.png",
+    "breedingPower": 1270,
+    "types": [
+      "Fire"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Flopie",
+    "image": "/pals/flopie-image.png",
+    "breedingPower": 1280,
+    "types": [
+      "Grass"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Killamari",
+    "image": "/pals/killamari-image.png",
+    "breedingPower": 1290,
+    "types": [
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Swee",
+    "image": "/pals/swee-image.png",
+    "breedingPower": 1300,
+    "types": [
+      "Ice"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Ribbuny",
+    "image": "/pals/ribbuny-image.png",
+    "breedingPower": 1310,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Bristla",
+    "image": "/pals/bristla-image.png",
+    "breedingPower": 1320,
+    "types": [
+      "Grass"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Fuack",
+    "image": "/pals/fuack-image.png",
+    "breedingPower": 1330,
+    "types": [
+      "Water"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Tocotoco",
+    "image": "/pals/tocotoco-image.png",
+    "breedingPower": 1340,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Pengullet",
+    "image": "/pals/pengullet-image.png",
+    "breedingPower": 1350,
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Jolthog Cryst",
+    "image": "/pals/jolthog-cryst-image.png",
+    "breedingPower": 1360,
+    "types": [
+      "Ice"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Jolthog",
+    "image": "/pals/jolthog-image.png",
+    "breedingPower": 1370,
+    "types": [
+      "Electric"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Depresso",
+    "image": "/pals/depresso-image.png",
+    "breedingPower": 1380,
+    "types": [
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Hoocrates",
+    "image": "/pals/hoocrates-image.png",
+    "breedingPower": 1390,
+    "types": [
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Foxparks",
+    "image": "/pals/foxparks-image.png",
+    "breedingPower": 1400,
+    "types": [
+      "Fire"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Flambelle",
+    "image": "/pals/flambelle-image.png",
+    "breedingPower": 1405,
+    "types": [
+      "Fire"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Sparkit",
+    "image": "/pals/sparkit-image.png",
+    "breedingPower": 1410,
+    "types": [
+      "Electric"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Hangyu",
+    "image": "/pals/hangyu-image.png",
+    "breedingPower": 1420,
+    "types": [
+      "Ground"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Hangyu Cryst",
+    "image": "/pals/hangyu-cryst-image.png",
+    "breedingPower": 1422,
+    "types": [
+      "Ice"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Lifmunk",
+    "image": "/pals/lifmunk-image.png",
+    "breedingPower": 1430,
+    "types": [
+      "Grass"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Mau Cryst",
+    "image": "/pals/mau-cryst-image.png",
+    "breedingPower": 1440,
+    "types": [
+      "Ice"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Vixy",
+    "image": "/pals/vixy-image.png",
+    "breedingPower": 1450,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Cremis",
+    "image": "/pals/cremis-image.png",
+    "breedingPower": 1455,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Cattiva",
+    "image": "/pals/cattiva-image.png",
+    "breedingPower": 1460,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Lamball",
+    "image": "/pals/lamball-image.png",
+    "breedingPower": 1470,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Mau",
+    "image": "/pals/mau-image.png",
+    "breedingPower": 1480,
+    "types": [
+      "Dark"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Teafant",
+    "image": "/pals/teafant-image.png",
+    "breedingPower": 1490,
+    "types": [
+      "Water"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Chikipi",
+    "image": "/pals/chikipi-image.png",
+    "breedingPower": 1500,
+    "types": [
+      "Neutral"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Boltmane",
+    "image": "/pals/boltmane.png",
+    "breedingPower": 9999,
+    "types": [
+      "Electric"
+    ],
+    "isRare": true
+  },
+  {
+    "name": "Dragostrophe",
+    "image": "/pals/dragostrophe.png",
+    "breedingPower": 9999,
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "isRare": true
+  }
+];
