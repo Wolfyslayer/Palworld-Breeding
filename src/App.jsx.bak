@@ -1,5 +1,0 @@
-import BreedingCalculator from './BreedingCalculator';
-import { useState } from 'react'
-import { pals, breedingTable, passives } from './data'
-import { calculateChances } from './math'
-
